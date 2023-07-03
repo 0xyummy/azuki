@@ -22,3 +22,31 @@ body {
   color: #e7e8e8;
   background: #0f1318;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.mt-20 {
+  margin-top: 20rem; /* Adjust as needed */
+}
+
+.my-20 {
+  margin-top: 20rem; /* Adjust as needed */
+  margin-bottom: 20rem; /* Adjust as needed */
+}
+
+
+.section {
+  text-align: center;
+  /* Other styles... */
+}
